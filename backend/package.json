@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Video Transcoding system",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theadityachoudhury/video-transcoding-microservice.git"
+  },
+  "author": "Aditya Das, Aditya Choudhury, Paras Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theadityachoudhury/video-transcoding-microservice/issues"
+  },
+  "homepage": "https://github.com/theadityachoudhury/video-transcoding-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.5.1",
+    "nodemailer": "^6.9.14"
+  }
+}
